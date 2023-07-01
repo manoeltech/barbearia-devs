@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    height: 20px;
+    background-color: #111111;
+}
+
+header {
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.main_logo {
+    height: 90px;
+    max-width: fit-content;
+    max-height: fit-content;
+
+}
+
+.gif_main {
+    display: flex;
+    height: 500px;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+
+}
+
+.header_text {
+    color: #FEA250;
+    font-size: 20px;
+    font-weight:300;
+    position: relative;
+    display: column;
+    left: 10px;
+    bottom: 470px;
+
+}
+
+.header_form {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    max-height: 10%;
+}
+
+
