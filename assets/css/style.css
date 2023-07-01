@@ -5,8 +5,10 @@ body {
 }
 
 header {
-    height: 90px;
+    height: 95px;
     background-color: rgba(0, 0, 0, 0.829);
+    border-radius: 20px;
+    box-shadow: #FA620C 3px 3px;
 }
 
 .main_logo {
@@ -22,7 +24,7 @@ header {
     justify-content: flex-end;
     position: relative;
     bottom: 30px;
-    right: 20px;
+    right: 50px;
 
 }
 
@@ -37,11 +39,55 @@ header {
 
 }
 
+.input_ss {
+    background-color: #FA620C;
+    padding: 60px;
+    border-radius: 20px; 
+    border: #FA620C;
+    box-shadow: #fa630cb6 7px 7px;
+}
+
+
+.header_form p {
+    color: #ffffff;
+    background-color: #fc9134;
+    font: 12px "Helvetica Neue",;
+    font-size: 20px;
+    margin: 2;
+    display: flex;
+    border: #111111;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    box-shadow: #1111114d 5px 5px 5px 5px;
+}
+
+
 .header_form {
     display: flex;
     height: 100px;
-    justify-content: center;
-    max-height: 10%;
+    width: 180px;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+    bottom: 420px;
+    left: 200px;
 }
+
+
+.input_ss input {
+    position: relative;
+    bottom: 30px;
+    border-radius: 30px;
+    border: #FA620C;
+    box-shadow: #fa630cab 0px 0px 10px 10px;
+}
+
+
+
+
+
 
 
