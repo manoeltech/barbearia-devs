@@ -18,13 +18,40 @@ header {
 
 }
 
+.wpp_logo__ {
+    display: grid;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    left: 145vh;
+    bottom: 13vh;
+}
+
+.instagram_logo__ {
+    display: grid;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    left: 125vh;
+    bottom: 23vh;
+}
+
+.loc_logo__ {
+    display: grid;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    left: 105vh;
+    bottom: 33vh;
+}
+
 .gif_main {
     display: flex;
     height: 500px;
     justify-content: flex-end;
     position: relative;
-    bottom: 30px;
-    right: 50px;
+    top: 5vh;
+    right: 25vh;
 
 }
 
@@ -41,10 +68,12 @@ header {
 
 .input_ss {
     background-color: #FA620C;
-    padding: 60px;
+    padding: 70px;
     border-radius: 20px; 
     border: #FA620C;
     box-shadow: #fa630cb6 7px 7px;
+    position: relative;
+    left: 10vh;
 }
 
 
@@ -86,8 +115,33 @@ header {
 }
 
 
+.input_ss h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    bottom: 7vh;
+    background-color: #FA620C;
+    border-radius: 20px;
+    font: 12px "Helvetica Neue",;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 2;
+    box-shadow: #1111114d 5px 5px 5px 5px;
 
 
 
+}
 
+.send__ {
+    display: flex;
+    position: relative;
+    max-height: 40%;
+    max-width: 40%;
+    position: relative;
+    left: 32vh;
+    bottom: 13vh;
+    margin: 0;
 
+}
