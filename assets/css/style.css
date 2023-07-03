@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    height: 20px;
+    background-color: #111111;
+}
+
+header {
+    height: 95px;
+    background-color: rgba(0, 0, 0, 0.829);
+    border-radius: 20px;
+    box-shadow: #FA620C 3px 3px;
+}
+
+.main_logo {
+    height: 90px;
+    max-width: fit-content;
+    max-height: fit-content;
+
+}
+
+.wpp_logo__ {
+    display: grid;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    left: 145vh;
+    bottom: 13vh;
+}
+
+.instagram_logo__ {
+    display: grid;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    left: 125vh;
+    bottom: 23vh;
+}
+
+.loc_logo__ {
+    display: grid;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    left: 105vh;
+    bottom: 33vh;
+}
+
+.gif_main {
+    display: flex;
+    height: 500px;
+    justify-content: flex-end;
+    position: relative;
+    top: 5vh;
+    right: 25vh;
+
+}
+
+.header_text {
+    color: #FEA250;
+    font-size: 20px;
+    font-weight:300;
+    position: relative;
+    display: column;
+    left: 10px;
+    bottom: 470px;
+
+}
+
+.input_ss {
+    background-color: #FA620C;
+    padding: 70px;
+    border-radius: 20px; 
+    border: #FA620C;
+    box-shadow: #fa630cb6 7px 7px;
+    position: relative;
+    left: 10vh;
+}
+
+
+.header_form p {
+    color: #ffffff;
+    background-color: #fc9134;
+    font: 12px "Helvetica Neue",;
+    font-size: 20px;
+    margin: 2;
+    display: flex;
+    border: #111111;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    box-shadow: #1111114d 5px 5px 5px 5px;
+}
+
+
+.header_form {
+    display: flex;
+    height: 100px;
+    width: 180px;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+    bottom: 420px;
+    left: 200px;
+}
+
+
+.input_ss input {
+    position: relative;
+    bottom: 30px;
+    border-radius: 30px;
+    border: #FA620C;
+    box-shadow: #fa630cab 0px 0px 10px 10px;
+}
+
+
+.input_ss h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    bottom: 7vh;
+    background-color: #FA620C;
+    border-radius: 20px;
+    font: 12px "Helvetica Neue",;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 2;
+    box-shadow: #1111114d 5px 5px 5px 5px;
+
+
+
+}
+
+.send__ {
+    display: flex;
+    position: relative;
+    max-height: 40%;
+    max-width: 40%;
+    position: relative;
+    left: 32vh;
+    bottom: 13vh;
+    margin: 0;
+
+}
