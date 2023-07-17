@@ -1,49 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
     <title>BarberShopDevs</title>
 </head>
 <body>
     <header>
-        <section class="main_logo">
-            <img src="./assets/img/main_logo.PNG" alt="">
-            <div class="wpp_logo__">
-                <img src="./assets/img/wpp.png" alt="">
+        <div class="HeaderContainer">
+            <div id="LogoImg">
+                <img src="./assets/img/main_logo.png" alt="">
             </div>
-            <div class="instagram_logo__">
-                <img src="./assets/img/instagram.png" alt="">
+
+            <div>
+
             </div>
-            <div class="loc_logo__">
-                <img src="./assets/img/location.png" alt="">
+            <div>
+
             </div>
-        </section>
-
-        <section class="header_info">
-            <section class="gif_main">
-                <img src="./assets/img/barber-animate.svg   " alt="">
-            </section>
-
-            <section class="header_form">
-                <section class="input_ss">
-                    <h1>Entre em contato</h1>
-                    <p>Nome:</p>
-                    <input type="text" placeholder="">
-                    <p> Email:</p>
-                    <input type="text" placeholder="">
-                    <p>Telefone:</p>
-                    <input type="text" placeholder="">
-
-                </section>
-                <div class="send__">
-                    <img src="./assets/img/send.png" alt="">
-                </div>
-                </section>
-        </section>
-        
+        </div>
     </header>
-    
+    <main>
+        <div class="MainContainer">
+            <div id="FormContainer">
+                <div id="FormInput">
+                    <label for="UserName">
+                        <p>Nome:</p>
+                        <input type="text" id="UserName" placeholder="Seu nome:">
+                    </label>
+                    <label for="PhoneNumber">
+                        <p>Numero de telefone:</p>
+                        <input type="text" name="" id="PhoneNumber" placeholder="Digite seu numero:">
+                    </label>
+                    <label for="Email">
+                        <p>Seu melhor email:</p>
+                        <input type="email" name="" id="Email" placeholder="Seu melhor email:">
+                    </label>
+                    <button id="submit">
+                        Enviar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
